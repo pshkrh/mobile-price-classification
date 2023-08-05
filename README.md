@@ -9,13 +9,7 @@ A simple mobile price classifier using Amazon SageMaker.
 
 ## Usage
 
-Create `env-vars.yml` and use the following structure:
-
-```
-sagemaker-role-arn: "<enter sagemaker role arn here>"
-sagemaker-profile: "<aws cli profile name goes here>"
-s3-bucket-name: "<s3 bucket name goes here>"
-```
+Replace the values in `env-vars.yml` with the actual values from your AWS account.
 
 The `sagemaker-profile` is the name of the profile used in AWS CLI with all the relevant permissions.
 
