@@ -1,0 +1,3 @@
+sagemaker-role-arn: "<enter sagemaker role arn here>"
+sagemaker-profile: "<aws cli profile name goes here>"
+s3-bucket-name: "<s3 bucket name goes here>"
