@@ -6,9 +6,11 @@ import argparse
 import os
 import pandas as pd
 
+
 def model_fn(model_dir):
     clf = joblib.load(os.path.join(model_dir, "model.joblib"))
     return clf
+
 
 if __name__ == '__main__':
     print("[INFO] Extracting arguments")
